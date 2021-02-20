@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:spring?useLegacyDatetimeCode=false&serverTimezone=UTC
+    initialization-mode: embedded
+  jpa:    database-platform: org.dialect.H2Dialect
+    hibernate:      ddl-auto: none
+
+  h2:    console:      enabled: true
+      
+      
