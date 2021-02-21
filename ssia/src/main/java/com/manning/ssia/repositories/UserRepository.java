@@ -1,4 +1,4 @@
-package com.manning.ssia;
+package com.manning.ssia.repositories;
 
 
 import java.util.Optional;
